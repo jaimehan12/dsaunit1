@@ -4,7 +4,7 @@ public class Bear {
 	String name;
 	double weight;
 	int species;
-	
+	//hi
 	/**
 	 * Constructor
 	 * @param name
@@ -26,3 +26,4 @@ public class Bear {
 	
 
 }
+
