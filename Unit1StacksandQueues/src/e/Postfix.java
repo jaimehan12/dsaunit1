@@ -13,6 +13,8 @@ public class Postfix {
 		System.out.println(evaluate(postfix2));
 		System.out.println(convertPostfix("5+4*3"));
 		System.out.println(convertPostfix("(3*4+(5+6*7))/(8-9)"));
+		CustomDeque<Bear> dequebears = new CustomDeque(20);
+		dequebears.addFront(new Bear("Smokey", 10, 1));
 	}
 	
 	public static int prec(char opperator) {
